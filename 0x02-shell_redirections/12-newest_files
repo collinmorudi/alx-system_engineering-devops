@@ -1,2 +1,2 @@
 #!/bin/bash
-ls * -Artls | tail -l
+ls . -Artls | tail -l
