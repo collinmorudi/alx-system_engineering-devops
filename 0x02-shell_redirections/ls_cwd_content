@@ -1,0 +1,16 @@
+total 56
+drwxr-xr-x 2 coll112 coll112 4096 Sep  5 13:40 .
+drwxr-xr-x 6 coll112 coll112 4096 Sep  5 11:49 ..
+-rwxr-xr-x 1 coll112 coll112   32 Sep  5 11:51 0-hello_world
+-rwxr-xr-x 1 coll112 coll112   28 Sep  5 11:59 1-confused_smiley
+-rwxr-xr-x 1 coll112 coll112   28 Sep  5 12:19 2-hellofile
+-rwxr-xr-x 1 coll112 coll112   39 Sep  5 12:33 3-twofiles
+-rwxr-xr-x 1 coll112 coll112   35 Sep  5 12:36 4-lastlines
+-rwxr-xr-x 1 coll112 coll112   35 Sep  5 12:39 5-firstlines
+-rwxr-xr-x 1 coll112 coll112   40 Sep  5 12:52 6-third_line
+-rwxr-xr-x 1 coll112 coll112  100 Sep  5 13:29 7-file
+-rwxr-xr-x 1 coll112 coll112   37 Sep  5 13:40 8-cwd_state
+-rw-r--r-- 1 coll112 coll112   71 Sep  5 12:22 README.md
+-rw-r--r-- 1 coll112 coll112   40 Sep  5 13:28 \*\\'"Best
+-rw-r--r-- 1 coll112 coll112   12 Sep  5 13:29 \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+-rw-r--r-- 1 coll112 coll112    0 Sep  5 13:41 ls_cwd_content
