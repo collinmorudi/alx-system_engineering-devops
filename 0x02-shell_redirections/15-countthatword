@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -c false$ /etc/passwd
+grep -C false$ /etc/passwd
