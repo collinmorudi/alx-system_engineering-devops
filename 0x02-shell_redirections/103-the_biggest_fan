@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "web sever logs in TSV format"
