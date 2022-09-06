@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ' cut -c1 | paste -s | tr -d "[:blank:]" ' >> 'filename'
+cut -c 1 | paste -s -d ''
