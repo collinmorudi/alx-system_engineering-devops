@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# prints the IP addresses and status codes of the apache-access.log file
+
+file="apache-access.log"
+awk '{print $1, $9}' $file
