@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# printing "Best School" 10 times except iteration 4 and iteration 8
 count=0
 
 while [ $count -lt 10 ]; do
