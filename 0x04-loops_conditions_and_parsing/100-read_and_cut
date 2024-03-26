@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Rreads the /etc/passwd file line by line, splits each line into fields
+# using : as the delimiter, extracts the username, user id (uid), and home
+# directory path for each user, and prints them in the specified format.
+
+while IFS=: read -r username _ uid _ home _; do
+    echo "$username:$uid:$home"
+done < /etc/passwd
