@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# prints a list of files in the directory excluding part before the dash
+
+files="$(ls)"
+for file in $files; do
+    echo "$file" | cut -d "-" -f2
+done
