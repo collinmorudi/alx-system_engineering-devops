@@ -36,7 +36,8 @@ def count_words(subreddit, keywords, after_token="", word_counts=[]):
                         duplicates.append(j)
                         word_counts[i] += word_counts[j]
 
-            sorted_counts = sorted(zip(word_counts, keywords), key=lambda x: (-x[0], x[1].lower()))
+            sorted_counts = sorted(zip(word_counts, keywords),
+                                   key=lambda x: (-x[0], x[1].lower()))
             for count, keyword in sorted_counts:
                 if count > 0 and keywords.index(keyword) not in duplicates:
                     print(f"{keyword.lower()}: {count}")
@@ -47,4 +48,3 @@ def count_words(subreddit, keywords, after_token="", word_counts=[]):
 # Example usage
 if __name__ == "__main__":
     count_words("python", ["Python", "requests", "API"])
-
